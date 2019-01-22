@@ -1,3 +1,2 @@
-obj-$(CONFIG_MACH_XIAOMI_MSM8998) += elliptic.o
-
+obj-y += elliptic/
 ccflags-y := -I$(src)
